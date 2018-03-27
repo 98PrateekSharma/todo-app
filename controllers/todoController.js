@@ -1,0 +1,13 @@
+module.exports = function(app) {
+    app.get('/todo', function(request, response) {
+        response.render('todo');
+    });
+
+    app.post('/todo', function(request, response) {
+        //handle request
+    });
+
+    app.delete('/todo', function(request, response) {
+        //delete todo list item
+    });
+};
